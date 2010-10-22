@@ -5,13 +5,13 @@
 %define		realname msn-pecan
 Summary:	Alternative MSN protocol plugin for libpurple
 Name:		libpurple-protocol-%{realname}
-Version:	0.1.0
+Version:	0.1.1
 Release:	1
 License:	GPL v2+
 Group:		Applications/Networking
 URL:		http://code.google.com/p/msn-pecan/
 Source0:	http://msn-pecan.googlecode.com/files/%{realname}-%{version}.tar.bz2
-# Source0-md5:	d13f2cd1e85aea553417dd2e3b697a9a
+# Source0-md5:	62dc9b26ebf9d4327671eebb1a0163c4
 %{?with_tests:BuildRequires:	check-devel >= 0.9.6}
 BuildRequires:	gettext-devel
 BuildRequires:	libpurple-devel
