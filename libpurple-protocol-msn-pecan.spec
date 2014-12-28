@@ -13,7 +13,7 @@ URL:		http://code.google.com/p/msn-pecan/
 Source0:	http://msn-pecan.googlecode.com/files/%{realname}-%{version}.tar.bz2
 # Source0-md5:	79bd4d4f3f06091159ee0d27a34921d5
 %{?with_tests:BuildRequires:	check-devel >= 0.9.6}
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	libpurple-devel
 BuildRequires:	pkgconfig
 Provides:	libpurple-protocol
